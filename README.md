@@ -1,28 +1,28 @@
-Organograma
+Organograma <br>
 Este projeto foi desenvolvido utilizando Vite como ferramenta de build e empacotamento, em conjunto com React para construção da interface.
 
-📦 Informações do Projeto
-Nome do pacote: organograma
-Versão: 0.0.0
-Privado: Não
+📦 Informações do Projeto <br>
+Nome do pacote: organograma <br>
+Versão: 0.0.0 <br>
+Privado: Não <br>
 
-🎛️ Scripts disponíveis
-Comando	Descrição
-npm run dev ->	Inicia o servidor de desenvolvimento
-npm run build	-> Gera a versão de produção do projeto
-npm run preview ->	Visualiza a build de produção localmente
-npm run lint	-> Executa o ESLint para análise de código
+🎛️ Scripts disponíveis <br>
+Comando ->	Descrição <br>
+npm run dev ->	Inicia o servidor de desenvolvimento <br>
+npm run build	-> Gera a versão de produção do projeto <br>
+npm run preview ->	Visualiza a build de produção localmente <br>
+npm run lint	-> Executa o ESLint para análise de código <br>
 
-📚 Dependências
-React ^19.1.0
-React DOM ^19.1.0
+📚 Dependências <br>
+React ^19.1.0 <br>
+React DOM ^19.1.0 <br>
 
-🖥️ Ambiente de Desenvolvimento
-Node.js: v20.19.3
-npm: 10.8.2
+🖥️ Ambiente de Desenvolvimento <br>
+Node.js: v20.19.3 <br>
+npm: 10.8.2 <br>
 
 🛠️ Conceitos Utilizados
-O projeto explora conceitos fundamentais do desenvolvimento moderno em React:
+O projeto explora conceitos fundamentais do desenvolvimento moderno em React.
 
 🧩 Componentes
 Estruturas reutilizáveis que representam partes da interface.
@@ -48,9 +48,7 @@ Exemplo de importação:
 
 import './App.css';
 
-🚀 Como iniciar o projeto
-Instale as dependências:
-
-npm install
-Rode o servidor de desenvolvimento: npm run dev
+🚀 Como iniciar o projeto <br>
+Instale as dependências: npm install <br>
+Rode o servidor de desenvolvimento: npm run dev <br>
 Acesse no navegador: http://localhost:5173
