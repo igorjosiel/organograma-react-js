@@ -108,31 +108,25 @@ import './App.css';
 ---
 
 ## 🚀 Iniciando o projeto e instalando as dependências
-Instale as dependências
-
+Instale as dependências: 
 npm install ou yarn install
 
-Inicie o servidor de desenvolvimento
-
+Inicie o servidor de desenvolvimento: 
 npm run dev ou yarn dev
 
-Abra no navegador
-
+Abra no navegador: 
 http://localhost:5173
 
-🌐 Links úteis
+## 🌐 Links úteis
 
-Documentação oficial do React
+Documentação oficial do React: 
 https://react.dev/
 
-Documentação do Vite
-
+Documentação do Vite: 
 https://vite.dev/guide/
 
-Introdução ao JSX
-
+Introdução ao JSX: 
 https://react.dev/learn/writing-markup-with-jsx
 
-Hooks do React
-
+Hooks do React: 
 https://react.dev/reference/react
