@@ -104,6 +104,8 @@ Exemplo de importação:
 ```javascript
 import './App.css';
 
+---
+
 🚀 Como iniciar o projeto
 Instale as dependências
 
