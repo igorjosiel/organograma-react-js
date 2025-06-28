@@ -117,6 +117,8 @@ npm run dev ou yarn dev
 Abra no navegador: 
 http://localhost:5173
 
+---
+
 ## 🌐 Links úteis
 
 Documentação oficial do React: 
