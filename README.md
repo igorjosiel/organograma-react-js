@@ -1,4 +1,4 @@
-Organograma
+Organograma <br>
 Este projeto foi desenvolvido utilizando Vite como ferramenta de build e empacotamento, em conjunto com React para construção da interface.
 
 📦 Informações do Projeto <br>
@@ -17,7 +17,7 @@ npm run lint	-> Executa o ESLint para análise de código <br>
 React ^19.1.0 <br>
 React DOM ^19.1.0 <br>
 
-🖥️ Ambiente de Desenvolvimento
+🖥️ Ambiente de Desenvolvimento <br>
 Node.js: v20.19.3 <br>
 npm: 10.8.2 <br>
 
