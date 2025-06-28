@@ -1,10 +1,20 @@
 import './TextInput.css';
 
-function TextInput({ label, placeholder, required }) {
+function TextInput({ label, placeholder, value, onChange, required }) {
+  const handleValue = (event) => {
+    onChange(event.target.value);
+  }
+
   return (
     <div className="text-input">
       <label>{label}</label>
-      <input required={required} placeholder={placeholder} />
+      
+      <input
+        value={value}
+        required={required}
+        placeholder={placeholder}
+        onChange={handleValue}
+      />
     </div>
   );
 }
