@@ -1,54 +1,133 @@
-Organograma <br>
-Este projeto foi desenvolvido utilizando Vite como ferramenta de build e empacotamento, em conjunto com React para construção da interface.
+# 🗂️ Organograma
 
-📦 Informações do Projeto <br>
-Nome do pacote: organograma <br>
-Versão: 0.0.0 <br>
-Privado: Não <br>
+Este projeto foi desenvolvido utilizando [Vite](https://vitejs.dev/) como ferramenta de build 
+e empacotamento, em conjunto com [React](https://react.dev/) para construção da interface.
 
-🎛️ Scripts disponíveis <br>
-Comando ->	Descrição <br>
-npm run dev ->	Inicia o servidor de desenvolvimento <br>
-npm run build	-> Gera a versão de produção do projeto <br>
-npm run preview ->	Visualiza a build de produção localmente <br>
-npm run lint	-> Executa o ESLint para análise de código <br>
+---
 
-📚 Dependências <br>
-React ^19.1.0 <br>
-React DOM ^19.1.0 <br>
+## 📦 Informações do Projeto
 
-🖥️ Ambiente de Desenvolvimento <br>
-Node.js: v20.19.3 <br>
-npm: 10.8.2 <br>
+- **Nome do pacote:** `organograma`
+- **Versão:** 0.0.0
+- **Privado:** Não
 
-🛠️ Conceitos Utilizados
-O projeto explora conceitos fundamentais do desenvolvimento moderno em React.
+---
 
-🧩 Componentes
+## 🎛️ Scripts Disponíveis
+
+Você pode executar os seguintes comandos no terminal:
+
+| Comando             | Descrição                                                 |
+|---------------------|-----------------------------------------------------------|
+| `npm run dev`       | Inicia o servidor de desenvolvimento                      |
+| `npm run build`     | Gera a versão de produção do projeto                      |
+| `npm run preview`   | Visualiza a build de produção localmente                  |
+| `npm run lint`      | Executa o ESLint para análise de código                   |
+
+---
+
+## 📚 Dependências
+
+- [React](https://react.dev/) `^19.1.0`
+- [React DOM](https://react.dev/reference/react-dom) `^19.1.0`
+
+---
+
+## 🖥️ Ambiente de Desenvolvimento
+
+- **Node.js:** v20.19.3
+- **npm:** 10.8.2
+
+---
+
+## 🛠️ Conceitos Utilizados
+
+O projeto explora diversos conceitos fundamentais do desenvolvimento moderno com React:
+
+### 🧩 Componentes
 Estruturas reutilizáveis que representam partes da interface.
 Cada componente pode conter seu próprio estado e lógica.
 
-Exemplos: cabeçalhos, listas, itens de um organograma.
+🔗 [Documentação: Componentes](https://react.dev/learn/your-first-component)
 
-📬 Propriedades (Props)
-São valores passados aos componentes para configurá-los dinamicamente.
-Permitem criar componentes genéricos e reaproveitáveis.
+---
 
-Exemplo: enviar dados de uma lista como prop para renderizar dinamicamente.
+### ⚙️ Estado (State)
+Permite que componentes controlem e armazenem informações dinâmicas.
 
-🌐 SPA (Single Page Application)
-O projeto segue o conceito de SPA.
-A navegação e atualização de conteúdo acontecem sem recarregar a página inteira.
-Melhor experiência do usuário e carregamento mais rápido.
+🔗 [Documentação: Estado](https://react.dev/learn/state-a-components-memory)
 
-🎨 Inclusão de CSS
-O CSS pode ser incluído de forma básica importando arquivos diretamente no componente ou no ponto de entrada.
+---
+
+### 📬 Propriedades (Props)
+Valores passados de um componente pai para um componente filho, possibilitando configuração dinâmica.
+
+🔗 [Documentação: Props](https://react.dev/learn/passing-props-to-a-component)
+
+---
+
+### 📝 Listas e Chave (key)
+Renderização de listas de elementos utilizando a propriedade `key` para identificar cada item.
+
+🔗 [Documentação: Renderizando Listas](https://react.dev/learn/rendering-lists)
+
+---
+
+### 🖱️ Eventos
+Tratamento de eventos como cliques e entradas de formulário.
+
+🔗 [Documentação: Manipulando Eventos](https://react.dev/learn/responding-to-events)
+
+---
+
+### 🧭 SPA (Single Page Application)
+O projeto segue o conceito de SPA, proporcionando navegação e atualização de conteúdo sem recarregar a página inteira, resultando em uma experiência de usuário mais fluida e rápida.
+
+🔗 [Sobre SPA no React](https://react.dev/learn/start-a-new-react-project#single-page-apps)
+
+---
+
+### 🎛️ Componentes Controlados e Não Controlados
+- **Controlados:** Formulários que mantêm o valor no estado React.
+- **Não Controlados:** Formulários que utilizam referências diretas ao DOM.
+
+🔗 [Documentação: Componentes Controlados](https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components)
+
+---
+
+## 🎨 Inclusão de CSS
+
+Você pode importar CSS diretamente nos componentes ou no ponto de entrada da aplicação.
 
 Exemplo de importação:
 
+```javascript
 import './App.css';
 
-🚀 Como iniciar o projeto <br>
-Instale as dependências: npm install <br>
-Rode o servidor de desenvolvimento: npm run dev <br>
-Acesse no navegador: http://localhost:5173
+🚀 Como iniciar o projeto
+Instale as dependências
+
+npm install
+
+Inicie o servidor de desenvolvimento
+
+npm run dev
+Abra no navegador
+
+http://localhost:5173
+🌐 Links úteis
+Documentação oficial do React
+
+https://react.dev/
+
+Documentação do Vite
+
+https://vite.dev/guide/
+
+Introdução ao JSX
+
+https://react.dev/learn/writing-markup-with-jsx
+
+Hooks do React
+
+https://react.dev/reference/react
