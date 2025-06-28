@@ -2,24 +2,24 @@ Organograma
 Este projeto foi desenvolvido utilizando Vite como ferramenta de build e empacotamento, em conjunto com React para construção da interface.
 
 📦 Informações do Projeto
-Nome do pacote: organograma
-Versão: 0.0.0
-Privado: Não
+Nome do pacote: organograma <br>
+Versão: 0.0.0 <br>
+Privado: Não <br>
 
 🎛️ Scripts disponíveis
-Comando	Descrição
-npm run dev ->	Inicia o servidor de desenvolvimento
-npm run build	-> Gera a versão de produção do projeto
-npm run preview ->	Visualiza a build de produção localmente
-npm run lint	-> Executa o ESLint para análise de código
+Comando	Descrição <br>
+npm run dev ->	Inicia o servidor de desenvolvimento <br>
+npm run build	-> Gera a versão de produção do projeto <br>
+npm run preview ->	Visualiza a build de produção localmente <br>
+npm run lint	-> Executa o ESLint para análise de código <br>
 
-📚 Dependências
-React ^19.1.0
-React DOM ^19.1.0
+📚 Dependências <br>
+React ^19.1.0 <br>
+React DOM ^19.1.0 <br>
 
 🖥️ Ambiente de Desenvolvimento
-Node.js: v20.19.3
-npm: 10.8.2
+Node.js: v20.19.3 <br>
+npm: 10.8.2 <br>
 
 🛠️ Conceitos Utilizados
 O projeto explora conceitos fundamentais do desenvolvimento moderno em React:
