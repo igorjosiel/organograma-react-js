@@ -103,6 +103,7 @@ Exemplo de importação:
 
 ```javascript
 import './App.css';
+```
 
 ---
 
