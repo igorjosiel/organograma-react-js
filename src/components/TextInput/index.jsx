@@ -1,10 +1,10 @@
 import './TextInput.css';
 
-function TextInput({ label, placeholder }) {
+function TextInput({ label, placeholder, required }) {
   return (
     <div className="text-input">
       <label>{label}</label>
-      <input placeholder={placeholder} />
+      <input required={required} placeholder={placeholder} />
     </div>
   );
 }
