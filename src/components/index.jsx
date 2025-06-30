@@ -3,6 +3,7 @@ import Form from "./Form";
 import TextInput from "./TextInput";
 import SelectInput from "./SelectInput";
 import Button from "./Button";
+import Team from './Team';
 
 export {
   Banner,
@@ -10,4 +11,5 @@ export {
   TextInput,
   SelectInput,
   Button,
+  Team,
 };
