@@ -14,6 +14,11 @@ function Form({ onSaveNewEmployee, teams }) {
     event.preventDefault();
 
     onSaveNewEmployee({ name, role, team, image });
+
+    setName("");
+    setRole("");
+    setImage("");
+    setTeam("");
   }
 
   return (
