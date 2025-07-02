@@ -1,9 +1,12 @@
+import Employee from '../Employee';
 import "./Team.css";
 
-const Team = ({ name }) => {
+const Team = ({ name, primaryColor, secondaryColor }) => {
   return (
-    <section className="team">
-      <h3>{name}</h3>
+    <section className="team" style={{ backgroundColor: primaryColor }}>
+      <h3 style={{ borderColor: secondaryColor }}>{name}</h3>
+
+      <Employee />
     </section>
   );
 }

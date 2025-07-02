@@ -51,7 +51,11 @@ function App() {
   return (
     <>
       <Banner />
-      <Form onSaveNewEmployee={employee => handleEmployees(employee)} />
+      
+      <Form
+        teams={teams.map(team => team.name)}
+        onSaveNewEmployee={employee => handleEmployees(employee)}
+      />
 
       {teams.map(team => {
         return (

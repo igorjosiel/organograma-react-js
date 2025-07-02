@@ -4,20 +4,11 @@ import SelectInput from "../SelectInput";
 import Button from "../Button";
 import "./Form.css";
 
-function Form({ onSaveNewEmployee }) {
+function Form({ onSaveNewEmployee, teams }) {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
   const [image, setImage] = useState("");
   const [team, setTeam] = useState("");
-
-  const teams = [
-    "Programação",
-    "Front-End",
-    "Data Science",
-    "Devops",
-    "UX e Design",
-    "Inovação e Gestão",
-  ];
 
   const onSave = (event) => {
     event.preventDefault();
