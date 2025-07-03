@@ -8,7 +8,10 @@ function SelectInput({ label, items, value, onChange, required }) {
   return (
     <div className="select-input">
       <label>{label}</label>
+
       <select required={required} value={value} onChange={handleValue}>
+        <option value=""></option>
+        
         {items.map(item => {
           return <option key={item}>{item}</option>
         })}

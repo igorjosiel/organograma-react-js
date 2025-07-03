@@ -11,9 +11,11 @@ const Team = ({ name, primaryColor, secondaryColor, teamMembers }) => {
         {teamMembers.map(teamMember => {
           return (
             <Employee
+              key={teamMember.name}
               name={teamMember.name}
               role={teamMember.role}
               image={teamMember.image}
+              backgroundColor={secondaryColor}
             />
           );
         })}
