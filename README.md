@@ -63,3 +63,96 @@ Fragmento nos componentes
 
 ## 🛠️ Links Úteis
 
+🟢 1. Componentes Funcionais
+React Docs - Function Components
+
+Alura - Criando um componente funcional
+
+🟢 2. Componentes Baseados em Classe
+Observação: Hoje são menos usados (hooks substituíram muitos casos), mas ainda vale conhecer.
+
+React Docs (Legacy) - Class Components
+
+React Docs - Introducing Classes
+
+🟢 3. Estados
+React Docs - State: A Component's Memory
+
+Alura - Introdução ao estado
+
+🟢 4. Propriedades (Props)
+React Docs - Passing Props to a Component
+
+Alura - Props em componentes
+
+🟢 5. Estilização mais básica com CSS
+React Docs - Adding CSS Styling
+
+Alura - CSS em componentes
+
+🟢 6. SPA (Single Page Application)
+React Docs - What is React?
+
+Alura - Conceitos de SPA
+
+🟢 7. Listas com Keys
+React Docs - Rendering Lists
+
+Alura - Renderização de listas
+
+🟢 8. Diferenças entre map e forEach
+MDN - Array.prototype.map()
+
+MDN - Array.prototype.forEach()
+
+Resumo:
+
+map() retorna um novo array com os elementos transformados.
+
+forEach() não retorna nada, só itera.
+
+🟢 9. Formulário
+React Docs - Forms
+
+React Docs - Handling Form Inputs
+
+Alura - Manipulando formulários
+
+🟢 10. Eventos HTML no React
+React Docs - Responding to Events
+
+Alura - Eventos
+
+🟢 11. useState e sua importância
+React Docs - useState Hook
+
+React Docs - Managing State
+
+Alura - Hooks e useState
+
+🟢 12. Inputs Controlados
+React Docs - Controlled Components
+
+Alura - Inputs controlados
+
+🟢 13. Prop Drilling
+React Docs - Passing Data Deeply with Context
+
+(Prop Drilling acontece quando você passa props por vários níveis de componentes)
+
+Alura - Context API
+
+🟢 14. Renderização Condicional
+React Docs - Conditional Rendering
+
+Alura - Renderização condicional
+
+🟢 15. Depuração de Código com Debugger
+MDN - Debugger Statement
+
+React Docs - Debugging React
+
+🟢 16. Fragmento nos Componentes
+React Docs - Fragments
+
+Alura - Fragments
