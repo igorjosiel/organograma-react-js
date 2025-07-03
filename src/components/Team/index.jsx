@@ -1,16 +1,20 @@
-import Employee from '../Employee';
+import Employee from "../Employee";
 import "./Team.css";
 
-const Team = ({ name, primaryColor, secondaryColor, employees }) => {
+const Team = ({ name, primaryColor, secondaryColor, teamMembers }) => {
   return (
-    employees.length > 0 &&
+    (teamMembers.length > 0) &&
     <section className="team" style={{ backgroundColor: primaryColor }}>
       <h3 style={{ borderColor: secondaryColor }}>{name}</h3>
 
-      <div className="employees">
-        {employees.map(employee => {
+      <div className="teamMembers">
+        {teamMembers.map(teamMember => {
           return (
-            <Employee name={employee.name} role={employee.role} image={employee.image} />
+            <Employee
+              name={teamMember.name}
+              role={teamMember.role}
+              image={teamMember.image}
+            />
           );
         })}
       </div>

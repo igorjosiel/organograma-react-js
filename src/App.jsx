@@ -64,7 +64,9 @@ function App() {
             name={team.name}
             primaryColor={team.primaryColor}
             secondaryColor={team.secondaryColor}
-            employees={teamMembers.filter(employee => employee.team === team.name)}
+            teamMembers={
+              teamMembers.filter(teamMember => teamMember.team === team.name)
+            }
           />
         );
       })}
