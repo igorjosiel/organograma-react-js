@@ -63,96 +63,44 @@ Fragmento nos componentes
 
 ## 🛠️ Links Úteis
 
-🟢 1. Componentes Funcionais
-React Docs - Function Components
+## 📚 Links úteis sobre conceitos de React
 
-Alura - Criando um componente funcional
+### 🟢 Componentes Funcionais
+- [React Docs - Function Components](https://react.dev/learn/your-first-component)
+- [Alura - Criando um componente funcional](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-🟢 2. Componentes Baseados em Classe
-Observação: Hoje são menos usados (hooks substituíram muitos casos), mas ainda vale conhecer.
+### 🟢 Componentes Baseados em Classe
+- [React Docs (Legacy) - Class Components](https://legacy.reactjs.org/docs/react-component.html)
+- [React Docs - Introducing Classes](https://legacy.reactjs.org/docs/components-and-props.html#function-and-class-components)
 
-React Docs (Legacy) - Class Components
+### 🟢 Estados
+- [React Docs - State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
+- [Alura - Introdução ao estado](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-React Docs - Introducing Classes
+### 🟢 Propriedades (Props)
+- [React Docs - Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
+- [Alura - Props em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-🟢 3. Estados
-React Docs - State: A Component's Memory
+### 🟢 Estilização com CSS
+- [React Docs - Adding CSS Styling](https://react.dev/learn/adding-styles)
+- [Alura - CSS em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-Alura - Introdução ao estado
+### 🟢 SPA (Single Page Application)
+- [React Docs - What is React?](https://react.dev/learn#react-is-a-library)
+- [Alura - Conceitos de SPA](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-🟢 4. Propriedades (Props)
-React Docs - Passing Props to a Component
+### 🟢 Listas com Keys
+- [React Docs - Rendering Lists](https://react.dev/learn/rendering-lists)
+- [Alura - Renderização de listas](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-Alura - Props em componentes
+### 🟢 Diferenças entre map e forEach
+- [MDN - Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [MDN - Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
-🟢 5. Estilização mais básica com CSS
-React Docs - Adding CSS Styling
+### 🟢 Formulário
+- [React Docs - Forms](https://react.dev/learn/forms)
+- [React Docs - Handling Form Inputs](https://react.dev/learn/forms)
+- [Alura - Manipulando formulários](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-Alura - CSS em componentes
-
-🟢 6. SPA (Single Page Application)
-React Docs - What is React?
-
-Alura - Conceitos de SPA
-
-🟢 7. Listas com Keys
-React Docs - Rendering Lists
-
-Alura - Renderização de listas
-
-🟢 8. Diferenças entre map e forEach
-MDN - Array.prototype.map()
-
-MDN - Array.prototype.forEach()
-
-Resumo:
-
-map() retorna um novo array com os elementos transformados.
-
-forEach() não retorna nada, só itera.
-
-🟢 9. Formulário
-React Docs - Forms
-
-React Docs - Handling Form Inputs
-
-Alura - Manipulando formulários
-
-🟢 10. Eventos HTML no React
-React Docs - Responding to Events
-
-Alura - Eventos
-
-🟢 11. useState e sua importância
-React Docs - useState Hook
-
-React Docs - Managing State
-
-Alura - Hooks e useState
-
-🟢 12. Inputs Controlados
-React Docs - Controlled Components
-
-Alura - Inputs controlados
-
-🟢 13. Prop Drilling
-React Docs - Passing Data Deeply with Context
-
-(Prop Drilling acontece quando você passa props por vários níveis de componentes)
-
-Alura - Context API
-
-🟢 14. Renderização Condicional
-React Docs - Conditional Rendering
-
-Alura - Renderização condicional
-
-🟢 15. Depuração de Código com Debugger
-MDN - Debugger Statement
-
-React Docs - Debugging React
-
-🟢 16. Fragmento nos Componentes
-React Docs - Fragments
-
-Alura - Fragments
+### 🟢 Eventos HTML no React
+- [React Docs -]()
