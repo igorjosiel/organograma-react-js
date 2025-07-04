@@ -5,6 +5,12 @@ e empacotamento, em conjunto com [React](https://react.dev/) para construção d
 
 ---
 
+## 🖼️ Visualização do projeto
+
+![banner de cabeçalho do projeto](/public/prints/banner.png)
+![formulário para inserção dos funcionários no projeto](/public/prints/form.png)
+![sessão de apresentação dos times](/public/prints/sectionTeams.png)
+
 ## 📦 Informações do Projeto
 
 - **Nome do pacote:** `organograma`
