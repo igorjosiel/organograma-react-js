@@ -46,7 +46,7 @@ Você pode executar os seguintes comandos no terminal:
 
 ---
 
-## 🖥️ Estrutura do projeto
+## 📂 Estrutura do projeto
 
 O projeto está estruturado da seguinte maneira:
 
@@ -76,24 +76,26 @@ O projeto está estruturado da seguinte maneira:
 
 O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 
-Componentes funcionais
-Componentes baseados em classe
-Estados
-Propriedades
-Estilização mais básica com CSS
-SPA (Single Page Aplication)
-Listas com keys
-Diferenças entre o map e o foreach
-Formulário
-Eventos HTML no React
-Funcionamento do useState e sua importância para a re-renderização da página
-Inputs controlados
-Prop drilling
-Renderização condicional
-Depuração de código com o debugger
-Fragmento nos componentes
+ 🔹 Criando um projeto com Vite 
+ 🔹 StrictMode 
+ 🔹 Componentes funcionais 
+ 🔹 Componentes baseados em classe 
+ 🔹 Estados 
+ 🔹 Propriedades 
+ 🔹 Estilização mais básica com CSS 
+ 🔹 SPA (Single Page Aplication) 
+ 🔹 Listas com keys 
+ 🔹 Diferenças entre o map e o foreach 
+ 🔹 Formulário 
+ 🔹 Eventos HTML no React 
+ 🔹 Funcionamento do useState e sua importância para a re-renderização da página 
+ 🔹 Inputs controlados 
+ 🔹 Prop drilling 
+ 🔹 Renderização condicional 
+ 🔹 Depuração de código com o debugger 
+ 🔹 Fragmento nos componentes 
 
-## 📚 Links úteis sobre conceitos de React
+## 📚 Links úteis sobre conceitos de React abordados no projeto
 
 ### 🟢 Componentes Funcionais
 - [React Docs - Function Components](https://react.dev/learn/your-first-component)
@@ -134,3 +136,9 @@ Fragmento nos componentes
 
 ### 🟢 Eventos HTML no React
 - [React Docs -]()
+
+### 🟢 StrictMode
+- [React Docs - Strict Mode](https://react.dev/reference/react/StrictMode)
+
+### 🟢 Vite
+- [Vite Official Docs](https://vite.dev/guide/)
