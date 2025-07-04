@@ -76,69 +76,69 @@ O projeto está estruturado da seguinte maneira:
 
 O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 
- 🔹 Criando um projeto com Vite 
- 🔹 StrictMode 
- 🔹 Componentes funcionais 
- 🔹 Componentes baseados em classe 
- 🔹 Estados 
- 🔹 Propriedades 
- 🔹 Estilização mais básica com CSS 
- 🔹 SPA (Single Page Aplication) 
- 🔹 Listas com keys 
- 🔹 Diferenças entre o map e o foreach 
- 🔹 Formulário 
- 🔹 Eventos HTML no React 
- 🔹 Funcionamento do useState e sua importância para a re-renderização da página 
- 🔹 Inputs controlados 
- 🔹 Prop drilling 
- 🔹 Renderização condicional 
- 🔹 Depuração de código com o debugger 
- 🔹 Fragmento nos componentes 
+ 🔹 Criando um projeto com Vite  
+ 🔹 StrictMode  
+ 🔹 Componentes funcionais  
+ 🔹 Componentes baseados em classe  
+ 🔹 Estados  
+ 🔹 Propriedades  
+ 🔹 Estilização mais básica com CSS  
+ 🔹 SPA (Single Page Aplication)  
+ 🔹 Listas com keys  
+ 🔹 Diferenças entre o map e o foreach  
+ 🔹 Formulário  
+ 🔹 Eventos HTML no React  
+ 🔹 Funcionamento do useState e sua importância para a re-renderização da página  
+ 🔹 Inputs controlados  
+ 🔹 Prop drilling  
+ 🔹 Renderização condicional  
+ 🔹 Depuração de código com o debugger  
+ 🔹 Fragmento nos componentes  
 
 ## 📚 Links úteis sobre conceitos de React abordados no projeto
 
-### 🟢 Componentes Funcionais
+### 🔹 Componentes Funcionais
 - [React Docs - Function Components](https://react.dev/learn/your-first-component)
 - [Alura - Criando um componente funcional](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Componentes Baseados em Classe
+### 🔹 Componentes Baseados em Classe
 - [React Docs (Legacy) - Class Components](https://legacy.reactjs.org/docs/react-component.html)
 - [React Docs - Introducing Classes](https://legacy.reactjs.org/docs/components-and-props.html#function-and-class-components)
 
-### 🟢 Estados
+### 🔹 Estados
 - [React Docs - State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
 - [Alura - Introdução ao estado](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Propriedades (Props)
+### 🔹 Propriedades (Props)
 - [React Docs - Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
 - [Alura - Props em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Estilização com CSS
+### 🔹 Estilização com CSS
 - [React Docs - Adding CSS Styling](https://react.dev/learn/adding-styles)
 - [Alura - CSS em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 SPA (Single Page Application)
+### 🔹 SPA (Single Page Application)
 - [React Docs - What is React?](https://react.dev/learn#react-is-a-library)
 - [Alura - Conceitos de SPA](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Listas com Keys
+### 🔹 Listas com Keys
 - [React Docs - Rendering Lists](https://react.dev/learn/rendering-lists)
 - [Alura - Renderização de listas](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Diferenças entre map e forEach
+### 🔹 Diferenças entre map e forEach
 - [MDN - Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [MDN - Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
-### 🟢 Formulário
+### 🔹 Formulário
 - [React Docs - Forms](https://react.dev/learn/forms)
 - [React Docs - Handling Form Inputs](https://react.dev/learn/forms)
 - [Alura - Manipulando formulários](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
-### 🟢 Eventos HTML no React
+### 🔹 Eventos HTML no React
 - [React Docs -]()
 
-### 🟢 StrictMode
+### 🔹 StrictMode
 - [React Docs - Strict Mode](https://react.dev/reference/react/StrictMode)
 
-### 🟢 Vite
+### 🔹 Vite
 - [Vite Official Docs](https://vite.dev/guide/)
