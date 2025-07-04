@@ -127,7 +127,7 @@ O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 - [React Docs - Handling Form Inputs](https://react.dev/learn/forms)
 
 ### 🔹 Eventos HTML no React
-- [React Docs -]()
+- [eventos no react](https://react.dev/learn/responding-to-events)
 
 ### 🔹 StrictMode
 - [React Docs - Strict Mode](https://react.dev/reference/react/StrictMode)
@@ -137,7 +137,8 @@ O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 
 ### 🔹 NodeJs
 - [vídeo sobre o nodejs](https://www.hipsters.tech/o-que-e-node-js/)
+
+### 🔹 Outros links importantes
 - [eventos javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)
 - [convenção de nomenclatura](https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case)
-- [eventos no react](https://react.dev/learn/responding-to-events)
 - [drop drilling](https://www.alura.com.br/artigos/prop-drilling-no-react-js)
