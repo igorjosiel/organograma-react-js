@@ -40,6 +40,32 @@ Você pode executar os seguintes comandos no terminal:
 
 ---
 
+## 🖥️ Estrutura do projeto
+
+O projeto está estruturado da seguinte maneira:
+
+- public
+  - images
+    - image.png
+- src
+  - components
+    - componentFolder
+      - component.css
+      - index.jsx
+    - index.jsx
+  - App.css
+  - App.jsx
+  - main.jsx
+- .gitignore
+- eslint.config.js
+- index.html
+- package.json
+- README.md
+- vite.config.js
+- yarn.lock
+
+---
+
 ## 🛠️ Conceitos Utilizados
 
 O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
@@ -60,8 +86,6 @@ Prop drilling
 Renderização condicional
 Depuração de código com o debugger
 Fragmento nos componentes
-
-## 🛠️ Links Úteis
 
 ## 📚 Links úteis sobre conceitos de React
 
