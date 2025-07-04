@@ -99,31 +99,24 @@ O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 
 ### 🔹 Componentes Funcionais
 - [React Docs - Function Components](https://react.dev/learn/your-first-component)
-- [Alura - Criando um componente funcional](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Componentes Baseados em Classe
-- [React Docs (Legacy) - Class Components](https://legacy.reactjs.org/docs/react-component.html)
 - [React Docs - Introducing Classes](https://legacy.reactjs.org/docs/components-and-props.html#function-and-class-components)
 
 ### 🔹 Estados
 - [React Docs - State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
-- [Alura - Introdução ao estado](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Propriedades (Props)
 - [React Docs - Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
-- [Alura - Props em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Estilização com CSS
 - [React Docs - Adding CSS Styling](https://react.dev/learn/adding-styles)
-- [Alura - CSS em componentes](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 SPA (Single Page Application)
 - [React Docs - What is React?](https://react.dev/learn#react-is-a-library)
-- [Alura - Conceitos de SPA](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Listas com Keys
 - [React Docs - Rendering Lists](https://react.dev/learn/rendering-lists)
-- [Alura - Renderização de listas](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Diferenças entre map e forEach
 - [MDN - Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
@@ -132,7 +125,6 @@ O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 ### 🔹 Formulário
 - [React Docs - Forms](https://react.dev/learn/forms)
 - [React Docs - Handling Form Inputs](https://react.dev/learn/forms)
-- [Alura - Manipulando formulários](https://cursos.alura.com.br/course/react-desenvolvendo-com-js-react)
 
 ### 🔹 Eventos HTML no React
 - [React Docs -]()
@@ -142,3 +134,10 @@ O projeto explora diversos conceitos fundamentais do desenvolvimento com React:
 
 ### 🔹 Vite
 - [Vite Official Docs](https://vite.dev/guide/)
+
+### 🔹 NodeJs
+- [vídeo sobre o nodejs](https://www.hipsters.tech/o-que-e-node-js/)
+- [eventos javascript](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events)
+- [convenção de nomenclatura](https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case)
+- [eventos no react](https://react.dev/learn/responding-to-events)
+- [drop drilling](https://www.alura.com.br/artigos/prop-drilling-no-react-js)
