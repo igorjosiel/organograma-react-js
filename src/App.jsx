@@ -4,43 +4,36 @@ import { Banner, Form, TextInput, Team } from "./components";
 import "./App.css";
 
 function App() {
-  const teams = [
+  const [teams, setTeams] = useState([
     {
       name: "Programação",
-      secondaryColor: "#57C278",
-      primaryColor: "#D9F7E9",
+      color: "#D9F7E9",
     },
     {
       name: "Front End",
-      secondaryColor: "#82CFFA",
-      primaryColor: "#E8F8FF",
+      color: "#E8F8FF",
     },
     {
       name: "Data Science",
-      secondaryColor: "#A6D157",
-      primaryColor: "#F0F8E2",
+      color: "#F0F8E2",
     },
     {
       name: "Devops",
-      secondaryColor: "#E06B69",
-      primaryColor: "#FDE7E8",
+      color: "#FDE7E8",
     },
     {
       name: "UX e Design",
-      secondaryColor: "#DB6EBF",
-      primaryColor: "#FAE9F5",
+      color: "#FAE9F5",
     },
     {
       name: "Mobile",
-      secondaryColor: "#FFBA05",
-      primaryColor: "#FFF5D9",
+      color: "#FFF5D9",
     },
     {
       name: "Inovação e Gestão",
-      secondaryColor: "#FF8A29",
-      primaryColor: "#FFEEDF",
+      color: "#FFEEDF",
     },
-  ];
+  ]);
 
   const [teamMembers, setTeamMember] = useState([]);
 
@@ -50,6 +43,16 @@ function App() {
 
   const deleteEmployee = () => {
     console.log("deletando colaboradores");
+  }
+
+  function changeTeamColor(color, teamName) {
+    setTeams(teams.map(team => {
+      if (team.name === teamName) {
+        team.color = color;
+      }
+
+      return team;
+    }));
   }
 
   return (
@@ -66,12 +69,12 @@ function App() {
           <Team
             key={team.name}
             name={team.name}
-            primaryColor={team.primaryColor}
-            secondaryColor={team.secondaryColor}
+            color={team.color}
             teamMembers={
               teamMembers.filter(teamMember => teamMember.team === team.name)
             }
             onDeleteEmployee={deleteEmployee}
+            changeColor={changeTeamColor}
           />
         );
       })}
