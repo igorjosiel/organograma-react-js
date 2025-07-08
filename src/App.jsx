@@ -48,6 +48,10 @@ function App() {
     setTeamMember([...teamMembers, employee]);
   }
 
+  const deleteEmployee = () => {
+    console.log("deletando colaboradores");
+  }
+
   return (
     <>
       <Banner />
@@ -67,6 +71,7 @@ function App() {
             teamMembers={
               teamMembers.filter(teamMember => teamMember.team === team.name)
             }
+            onDeleteEmployee={deleteEmployee}
           />
         );
       })}

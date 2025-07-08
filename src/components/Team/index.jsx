@@ -1,7 +1,7 @@
 import Employee from "../Employee";
 import "./Team.css";
 
-const Team = ({ name, primaryColor, secondaryColor, teamMembers }) => {
+const Team = ({ name, primaryColor, secondaryColor, teamMembers, onDeleteEmployee }) => {
   return (
     (teamMembers.length > 0) &&
     <section className="team" style={{ backgroundColor: primaryColor }}>
@@ -16,6 +16,7 @@ const Team = ({ name, primaryColor, secondaryColor, teamMembers }) => {
               role={teamMember.role}
               image={teamMember.image}
               backgroundColor={secondaryColor}
+              onDelete={onDeleteEmployee}
             />
           );
         })}
