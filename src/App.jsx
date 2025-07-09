@@ -43,14 +43,16 @@ function App() {
     },
   ]);
 
-  const [teamMembers, setTeamMember] = useState([]);
+  const [teamMembers, setTeamMembers] = useState([]);
 
   const handleEmployees = (employee) => {
-    setTeamMember([...teamMembers, employee]);
+    setTeamMembers([...teamMembers, employee]);
   }
 
-  const deleteEmployee = () => {
-    console.log("deletando colaboradores");
+  const deleteEmployee = (id) => {
+    const newTeamMembers = teamMembers.filter(teamMember => teamMember.id !== id);
+
+    setTeamMembers(newTeamMembers);
   }
 
   function changeTeamColor(color, teamId) {

@@ -26,11 +26,9 @@ const Team = ({
           return (
             <Employee
               key={teamMember.name}
-              name={teamMember.name}
-              role={teamMember.role}
-              image={teamMember.image}
+              teamMember={teamMember}
               backgroundColor={color}
-              onDelete={onDeleteEmployee}
+              onDelete={(id) => onDeleteEmployee(id)}
             />
           );
         })}

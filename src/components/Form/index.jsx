@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import TextInput from "../TextInput";
 import SelectInput from "../SelectInput";
 import Button from "../Button";
@@ -13,7 +14,7 @@ function Form({ onSaveNewEmployee, teams }) {
   const onSave = (event) => {
     event.preventDefault();
 
-    onSaveNewEmployee({ name, role, team, image });
+    onSaveNewEmployee({ id: uuidv4(), name, role, team, image });
 
     setName("");
     setRole("");
