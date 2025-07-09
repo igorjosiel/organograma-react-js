@@ -1,35 +1,43 @@
 
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import { Banner, Form, TextInput, Team } from "./components";
 import "./App.css";
 
 function App() {
   const [teams, setTeams] = useState([
     {
+      id: uuidv4(),
       name: "Programação",
       color: "#D9F7E9",
     },
     {
+      id: uuidv4(),
       name: "Front End",
       color: "#E8F8FF",
     },
     {
+      id: uuidv4(),
       name: "Data Science",
       color: "#F0F8E2",
     },
     {
+      id: uuidv4(),
       name: "Devops",
       color: "#FDE7E8",
     },
     {
+      id: uuidv4(),
       name: "UX e Design",
       color: "#FAE9F5",
     },
     {
+      id: uuidv4(),
       name: "Mobile",
       color: "#FFF5D9",
     },
     {
+      id: uuidv4(),
       name: "Inovação e Gestão",
       color: "#FFEEDF",
     },
@@ -45,9 +53,9 @@ function App() {
     console.log("deletando colaboradores");
   }
 
-  function changeTeamColor(color, teamName) {
+  function changeTeamColor(color, teamId) {
     setTeams(teams.map(team => {
-      if (team.name === teamName) {
+      if (team.id === teamId) {
         team.color = color;
       }
 
@@ -67,7 +75,8 @@ function App() {
       {teams.map(team => {
         return (
           <Team
-            key={team.name}
+            key={team.id}
+            id={team.id}
             name={team.name}
             color={team.color}
             teamMembers={

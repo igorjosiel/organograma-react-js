@@ -4,15 +4,20 @@ import "./Team.css";
 
 const Team = ({
   name,
+  id,
   color,
   teamMembers,
   onDeleteEmployee,
   changeColor,
 }) => {
+  const handleColorChanging = (event) => {
+    changeColor(event.target.value, id);
+  }
+
   return (
     (teamMembers.length > 0) &&
     <section className="team" style={{ backgroundColor: hexToRgba(color, 0.6) }}>
-      <input value={color} onChange={event => changeColor(event.target.value, name)} type="color" className="input-color" />
+      <input value={color} onChange={handleColorChanging} type="color" className="input-color" />
 
       <h3 style={{ borderColor: color }}>{name}</h3>
 
