@@ -49,6 +49,10 @@ function App() {
     setTeamMembers([...teamMembers, employee]);
   }
 
+  const createTeam = (newTeam) => {
+    setTeams([...teams, { ...newTeam, id: uuidv4() }]);
+  }
+
   const deleteEmployee = (id) => {
     const newTeamMembers = teamMembers.filter(teamMember => teamMember.id !== id);
 
@@ -79,6 +83,7 @@ function App() {
       
       <Form
         teams={getTeamsNames()}
+        onSaveNewTeam={team => createTeam(team)}
         onSaveNewEmployee={employee => handleEmployees(employee)}
       />
 
