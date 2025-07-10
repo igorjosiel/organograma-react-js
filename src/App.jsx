@@ -65,12 +65,20 @@ function App() {
     }));
   }
 
+  function getTeamsNames() {
+    return teams.map(team => team.name);
+  }
+
+  function filterTeamMembers(team) {
+    return teamMembers.filter(teamMember => teamMember.team === team.name);
+  }
+
   return (
     <>
       <Banner />
       
       <Form
-        teams={teams.map(team => team.name)}
+        teams={getTeamsNames()}
         onSaveNewEmployee={employee => handleEmployees(employee)}
       />
 
@@ -81,9 +89,7 @@ function App() {
             id={team.id}
             name={team.name}
             color={team.color}
-            teamMembers={
-              teamMembers.filter(teamMember => teamMember.team === team.name)
-            }
+            teamMembers={filterTeamMembers(team)}
             onDeleteEmployee={deleteEmployee}
             changeColor={changeTeamColor}
           />

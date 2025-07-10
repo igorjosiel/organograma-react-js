@@ -17,7 +17,12 @@ const Team = ({
   return (
     (teamMembers.length > 0) &&
     <section className="team" style={{ backgroundColor: hexToRgba(color, 0.6) }}>
-      <input value={color} onChange={handleColorChanging} type="color" className="input-color" />
+      <input
+        value={color}
+        onChange={handleColorChanging}
+        type="color"
+        className="input-color"
+      />
 
       <h3 style={{ borderColor: color }}>{name}</h3>
 
