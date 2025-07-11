@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { Banner, Form, TextInput, Team } from "./components";
+import { Banner, Form, Team } from "./components";
 import "./App.css";
 
 function App() {
@@ -77,6 +77,14 @@ function App() {
     return teamMembers.filter(teamMember => teamMember.team === team.name);
   }
 
+  function handleFavorite(id) {
+    setTeamMembers(teamMembers.map(teamMember => {
+      if (teamMember.id === id) teamMember.favorite = !teamMember.favorite;
+
+      return teamMember;
+    }));
+  }
+
   return (
     <>
       <Banner />
@@ -97,6 +105,7 @@ function App() {
             teamMembers={filterTeamMembers(team)}
             onDeleteEmployee={deleteEmployee}
             changeColor={changeTeamColor}
+            onFavorite={handleFavorite}
           />
         );
       })}

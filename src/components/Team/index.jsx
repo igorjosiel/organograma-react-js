@@ -9,6 +9,7 @@ const Team = ({
   teamMembers,
   onDeleteEmployee,
   changeColor,
+  onFavorite,
 }) => {
   const handleColorChanging = (event) => {
     changeColor(event.target.value, id);
@@ -30,10 +31,11 @@ const Team = ({
         {teamMembers.map(teamMember => {
           return (
             <Employee
-              key={teamMember.name}
+              key={teamMember.id}
               teamMember={teamMember}
               backgroundColor={color}
-              onDelete={(id) => onDeleteEmployee(id)}
+              onDelete={onDeleteEmployee}
+              onFavorite={onFavorite}
             />
           );
         })}
