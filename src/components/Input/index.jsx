@@ -1,15 +1,23 @@
-import './TextInput.css';
+import './Input.css';
 
-function TextInput({ label, placeholder, value, onChange, required }) {
+function Input({
+  type = "text",
+  label,
+  placeholder,
+  value,
+  onChange,
+  required = false
+}) {
   const handleValue = (event) => {
     onChange(event.target.value);
   }
 
   return (
-    <div className="text-input">
+    <div className={`input ${type}-input`}>
       <label>{label}</label>
       
       <input
+        type={type}
         value={value}
         required={required}
         placeholder={placeholder}
@@ -19,4 +27,4 @@ function TextInput({ label, placeholder, value, onChange, required }) {
   );
 }
 
-export default TextInput;
+export default Input;

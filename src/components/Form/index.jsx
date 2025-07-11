@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import TextInput from "../TextInput";
+import Input from "../Input";
 import SelectInput from "../SelectInput";
 import Button from "../Button";
 import "./Form.css";
@@ -38,7 +38,7 @@ function Form({ teams, onSaveNewEmployee, onSaveNewTeam }) {
       <form onSubmit={onSave}>
         <h2>Preencha os dados para criar o card do colaborador</h2>
 
-        <TextInput
+        <Input
           label="Nome"
           placeholder="Digite seu nome"
           value={name}
@@ -46,7 +46,7 @@ function Form({ teams, onSaveNewEmployee, onSaveNewTeam }) {
           required
         />
 
-        <TextInput
+        <Input
           label="Cargo"
           placeholder="Digite seu cargo"
           value={role}
@@ -54,7 +54,7 @@ function Form({ teams, onSaveNewEmployee, onSaveNewTeam }) {
           required
         />
 
-        <TextInput
+        <Input
           label="Imagem"
           placeholder="Informe o endereço da imagem"
           value={image}
@@ -74,7 +74,7 @@ function Form({ teams, onSaveNewEmployee, onSaveNewTeam }) {
       <form onSubmit={onSaveTeam}>
         <h2>Preencha os dados para criar um novo time.</h2>
 
-        <TextInput
+        <Input
           label="Nome"
           placeholder="Digite o nome do time"
           value={teamName}
@@ -82,7 +82,8 @@ function Form({ teams, onSaveNewEmployee, onSaveNewTeam }) {
           required
         />
 
-        <TextInput
+        <Input
+          type="color"
           label="Cor"
           placeholder="Digite a cor do time"
           value={teamColor}
