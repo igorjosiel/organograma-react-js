@@ -8,7 +8,7 @@ e empacotamento, em conjunto com [React](https://react.dev/) para construção d
 ## 🖼️ Visualização do projeto
 
 ![banner de cabeçalho do projeto](/public/prints/banner.png)
-![formulário para inserção dos funcionários no projeto](/public/prints/form.png)
+![formulários de cadastro do colaborador e novo time](/public/prints/forms.png)
 ![sessão de apresentação dos times](/public/prints/sectionTeams.png)
 
 ## 📦 Informações do Projeto
@@ -50,25 +50,31 @@ Você pode executar os seguintes comandos no terminal:
 
 O projeto está estruturado da seguinte maneira:
 
-- public
-  - images
-    - image.png
-- src
-  - components
-    - componentFolder
-      - component.css
-      - index.jsx
-    - index.jsx
-  - App.css
-  - App.jsx
-  - main.jsx
-- .gitignore
-- eslint.config.js
-- index.html
-- package.json
-- README.md
-- vite.config.js
-- yarn.lock
+# 📦 Estrutura do Projeto
+
+📂 **public**  
+&nbsp;&nbsp;&nbsp;&nbsp;📂 **images**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🖼️ image.png  
+&nbsp;&nbsp;&nbsp;&nbsp;📂 **prints**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🖼️ image.png  
+
+📂 **src**  
+&nbsp;&nbsp;&nbsp;&nbsp;📂 **components**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📂 **componentFolder**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="16"/> component.css  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/> index.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/> index.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="16"/> App.css  
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/> App.jsx  
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16"/> main.jsx  
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16"/> .gitignore  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width="16"/> eslint.config.js  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="16"/> index.html  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="16"/> package.json  
+📄 README.md  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="16"/> vite.config.js  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="16"/> yarn.lock  
 
 ---
 
